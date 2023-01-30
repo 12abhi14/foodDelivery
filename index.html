@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title> Food delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="popup.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+   <!-- <style type="text/css">
+      header{
+       background-color: aliceblue;
+       height: 80px;
+       width:auto;
+      }
+   </style> -->
+<body>
+  <div class = "header">
+    
+    <!-- <h1>Header</h1>
+    <p>Header tab</p> -->
+    <!-- <a class="button" href="#divOne">Login</a> -->
+    <style type="text/css">
+      .btn {
+          background-color:red;
+          cursor:pointer;
+          width: 30px;
+      }
+  </style>
+   <a class="btn" href="#divOne">Login</a>
+  <!-- <button class="btn" href="#divone"></button -->
+  </div>
+
+  <nav >
+     <ul> 
+      <li>
+        <a href="#" class="logo">
+          <img src="./apimg/logo.jpg" alt="">
+          <span class="nav-item">Food Delivery</span>
+        </a>
+      </li>
+      <li><a href="#">
+        <i class="fas fa-home"></i>
+        <span class="nav-item">Home</span>
+      </a></li>
+      <li><a href="about.html">
+        <i class="fas fa-address-book"></i>
+        <span class="nav-item">About us</span>
+
+      </a></li>
+      <li><a href="contact.html">
+        <i class="fas fa-phone"></i>
+        <span class="nav-item">Contact us</span>
+      </a></li>
+      <li><a href="menu.html">
+        <i class="fas fa-hand-holding"></i>
+        <span class="nav-item">Menu</span>
+
+      <!-- </a></li>
+      <li><a href="#divOne">
+        <i class="fas fa-sign-in-alt"></i>
+        <span class="nav-item">Login</span>
+
+      </a></li> -->
+
+      <!-- <a href="#divOne" class="Logout"><span>Logout</span></a>
+    </div>
+
+      </ul> -->
+  <!-- <div class="box">
+  
+		 <a class="button" href="#divOne">Login</a> 
+	 </div> -->
+	<div class="overlay" id="divOne">
+		<div class="login">
+      <label for="show" class="close-btn fas fa-times" title="close"></label>
+      <div class="text">
+         Login Form
+      </div>
+      <form action="#">
+         <div class="data">
+            <label>Email or Phone</label>
+            <input type="text" required>
+         </div>
+         <div class="data">
+            <label>Password</label>
+            <input type="password" required>
+         </div>
+         <div class="forgot-pass">
+            <a href="#">Forgot Password?</a>
+         </div>
+         <div class="btn">
+            <div class="inner"></div>
+            <button type="submit">login</button>
+         </div>
+         <div class="signup-link">
+            Not a member? <a href="#">Signup now</a>
+         </div>
+      </form>
+   </div>
+	</div>  
+
+  </nav>
+  
+
+  <section id="home">
+    <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolorum numquam minus. </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+    <!-- <button class="btn">Order Now</button> -->
+</section>
+<br><br><br>
+<section id="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="./apimg/fast.jpg" alt="">
+            <h2 class="h-secondary center">Quick delivery</h2>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                sint delectus ab dolorum nam. </p>
+        </div>
+        <div class="box">
+            <img src="./apimg/order.jpg" alt="">
+            <h2 class="h-secondary center">Bulk Ordering</h2>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                voluptas beatae facilis labore, omnis sint quae eum.</p>
+        </div>
+        <div class="box">
+            <img src="./apimg/cater.jpg" alt="">
+            <h2 class="h-secondary center">Catering</h2>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                voluptas beatae facilis labore, omnis sint quae eum.</p>
+        </div>
+    </div>
+</section>
+<section id="partner-section">
+    <h1 class="h-primary center">Our Partners</h1>
+    <div id="partner">
+        <div class="partner-item">
+            <img src="./apimg/swiggy.jpg" alt="Our partner">
+        </div>
+        <div class="partner-item">
+            <img src="./apimg/uber.jpg" alt="Our partner">
+        </div>
+      
+        <div class="partner-item">
+            <img src="./apimg/duzo.jpg" alt="Our partner">
+        </div>
+        <div class="partner-item">
+            <img src="./apimg/zomato.jpg" alt="Our partner">
+        </div>
+    </div>
+
+</section>
+
+
+
+<footer>
+    <div class="center">
+        Copyright &copy; madeByAbhijeet. All rights reserved!
+    </div>
+</footer>
+
+</body>
+</html>
